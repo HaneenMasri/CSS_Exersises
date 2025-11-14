@@ -1,0 +1,40 @@
+Assignment Requirements
+
+Using the given HTML structure:
+
+<div class="assign-1-shape-1">Normal Div</div>
+<div class="assign-1-shape-2">Normal Div</div>
+<div class="assign-1-shape-3">Normal Div</div>
+Do the following:
+Set the width of each div to 500px.
+Center the divs horizontally in the page.
+Add 20px padding inside each div.
+Give the first div a blueviolet background color, and repeat the color declaration using all the following formats
+Color Name
+Hex
+RGB
+HSL
+Create a second div with the same background color, but with 50% transparency (Alpha = 0.5).
+Create a third div with the same background color, but with 10% transparency (Alpha = 0.1).
+.....................................................................................................
+.assign-1-shape-1{
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: blueviolet;
+  background-color: #8a2be8;
+  background-color: rgb(138, 43, 226);
+  background-color: hsl(271, 76%, 53%);
+
+}
+.assign-1-shape-2{
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(138, 43, 226, 50% );
+}
+.assign-1-shape-3{
+  width: 500px;
+  padding: 20px;
+    background-color: rgb(138, 43, 226, 0.1);
+
+}
