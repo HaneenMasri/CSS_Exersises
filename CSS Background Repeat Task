@@ -1,0 +1,49 @@
+Use the structure below to complete the requirements:
+The div width and height are 400px.
+Set the image at the beginning of the assignments as the background of the element.
+In Shape 1, make the background not repeat at all.
+In Shape 2, make the background repeat vertically only.
+In Shape 3, make the background repeat horizontally only.
+In Shape 4, make the background repeat both vertically and horizontally.
+
+..................................................................................
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/master.css">
+</head>
+<body>
+<div class="assign-2-shape-1">Normal Div</div>
+<hr>
+<div class="assign-2-shape-2">Normal Div</div>
+<hr>
+<div class="assign-2-shape-3">Normal Div</div>
+<hr>
+<div class="assign-2-shape-4">Normal Div</div>
+</body>
+</html>
+---------------------------------
+div{
+  width: 400px;
+  height: 400px;
+  background-image: url("https://elzero.org/wp-content/uploads/2021/02/css-assignments-lessons-5-8-2.png");
+}
+ .assign-2-shape-1{
+  background-image: url("../imgs/shape1.png");
+  background-repeat: no-repeat;
+}
+.assign-2-shape-2{
+  background-image: url("../imgs/shape1.png");
+  background-repeat:repeat-y;
+}
+.assign-2-shape-3{
+  background-image: url("../imgs/shape1.png");
+  background-repeat: repeat-x;
+}
+.assign-2-shape-4{
+  background-image: url("../imgs/shape1.png");
+  background-repeat: repeat;
+}
