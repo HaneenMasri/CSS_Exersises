@@ -1,0 +1,24 @@
+div{
+    background-color: beige;
+display: inline-block;
+outline: 2px solid black;
+margin: 5px;
+padding: 5px ;
+}
+.one{
+    border: 2px solid red;   
+}
+.two{
+    border-top: 2px solid blue ;
+    border-right: 2px solid green;
+    border-bottom: 2px solid blue ;
+    border-left: 2px solid green;
+}
+
+.three{
+    border-top: 2px dashed red;
+    border-right: 2px dashed green;
+    border-bottom: 2px dashed blue;
+    border-left: 2px dashed yellow;
+}
+
